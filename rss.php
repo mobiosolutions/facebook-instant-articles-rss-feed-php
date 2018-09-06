@@ -12,7 +12,7 @@
     include('include/connect.php');
     include('include/functions.php');
 
-    // Replace Query according to database structur to get all required data.
+    // Replace Query according to database structure to get all required data.
     $sql = "SELECT * FROM articles ORDER BY datetime limit 25";
 
     $query = $mysqli->query($sql);
